@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300');
+
+body {
+	margin: 0;
+}  
+
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-style: italic;
+	margin: 0;
+	font-size: 13px;
+    line-height: 1.5;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: white;
+}
+
+li:hover {
+	color: white;
+}
+.container1 {
+	/*height: 200vh;*/
+	background-color: #e0dfdf;
+}
+
+.column {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.nav {
+	width: 100%;
+	font-size: 13px;
+	list-style: none;
+	padding-left: 20px;
+	font-family: 'Quicksand', Serif;
+	color: black;
+}
+
+li {
+	padding: 12px 0;
+
+}
+
+#column1 {
+	width: 15%;
+}
+
+.book {
+	width: 100%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.book:hover{
+	opacity: .5;
+}
+#groucho {
+	width: 100%;
+	font-size: 13px/;
+    /*line-height: 1.5;*/
+}
+
+#column2 {
+	width: 20%;
+}
+
+.adjacent {
+	width: 100%;
+}
+
+#cane {
+	width: 53.5%;
+	vertical-align: top;
+}
+
+#yeats {
+	width: 46.5%;
+}
+
+#huckA {
+	width: 100%;
+}
+
+#huck {
+	width: 51.4%;
+}
+
+#movie {
+	width: 48.6%;
+}
+
+#screw {
+	width: 75%;
+}
+#column3 {
+	width: 65%;
+}
+
+#row {
+	width: 100%;
+}
+#solitude {
+	width: 22.2%;
+}
+
+#slaught {
+	width: 21.53%;
+}
+
+#sheA {
+	width: 33.8%;
+	display: inline-block;
+}
+
+#she {
+	width: 49.5%
+}
+
+#watchmen {
+	width: 50.5%;
+}
+
+#text {
+	width: 100%;
+	vertical-align: middle;
+	max-height: 5%;
+}
+
+#stylePref {
+	/*font-size: 14px;*/
+    line-height: 1.3;
+}
+#crime {
+	width: 22.1%;
+}
+
+#column4 {
+	width: 30%;
+}
+
+#screwA {
+	width: 100%;
+}
+
+#screw {
+	width: 49.4%;
+}
+
+#poe {
+	width: 50.6%;
+}
+
+#column5 {
+	width: 25%;
+}
+
+#column6 {
+	width: 45%;
+}
+
+#chunk {
+	width: 100%;
+}
+
+#opt {
+	width: 40.5%;
+}
+
+#optimist {
+	width: 100%;
+}
+
+#moses {
+	width: 100%;
+}
+
+#science {
+	width: 59.5%;
+}
+
+#gayscience {
+	width: 100%;
+}
+
+#modern {
+/*	font-size: 14px;
+    line-height: 1.5;*/
+}
+/*---------------------------*/
+#kaf {
+	width: 40.5%;
+}
+
+#tobacco {
+	width: 100%;
+}
+
+#kafka {
+	width: 100%;
+}
+
+#toba {
+	width: 59.5%;
+}
+
+#blackboy {
+	width: 100%;
+}
+
+#dost {
+	line-height: 1.3;
+}
+
+@media screen and (max-width: 1110px){
+
+	p{
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 980px){
+
+	p{
+		font-size: 10px;
+	}
+	li {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 830px){
+
+	p{
+		line-height: 1.2;
+		font-size: 9px;
+	}
+	li {
+		font-size: 10px;
+		padding: 10px 0;
+	}
+
+	.nav {
+		padding-left: 10px;
+	}
+}
+
+@media screen and (max-width: 720px){
+
+	p{
+		/*line-height: 1.2;*/
+		font-size: 8px;
+	}
+
+}

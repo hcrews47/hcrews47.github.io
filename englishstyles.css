@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Duru+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300');
+body {
+	margin: 0;
+}  
+
+.container1 {
+	height: 200vh;
+	position: relative;
+	background-color: #e0dfdf;
+}
+
+.book {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	width: 10%;
+	/*float: left;*/
+	/*vertical-align: top;*/
+	position: absolute;
+	opacity: 1;
+	/*float: top;*/
+}
+
+#brothers {
+	width: 20%;
+	top: 20%;		/*maybe change these to pixels??*/
+	left: 35%;
+}
+
+#catch {
+	width: 16%;
+	top: 68%;
+	right: 29%;
+}
+
+#crime {
+	width: 15%;
+	top: 0%;
+	right: 0%;
+}
+
+#fury {
+	width: 20%;
+	top: 0%;
+	left: 15%;
+}
+#dalloway {
+	width: 15%;
+	top: 0%;
+	left: 0%;
+}
+
+#watchmen {
+	width: 10.2%;
+	top: 0%;
+	right: 15%;
+}
+
+#solitude {
+	width: 14%;
+    top: 0%;
+    right: 51%;
+}
+
+#gayscience {
+	width: 17%;
+	top: 21%;
+	right: 0%;
+}
+
+#dying {
+	width: 15%;
+	top: 43%;
+	left: 0%;
+}
+
+#pale {
+	width: 11.8%;
+	top: 0%;
+	left: 63%;
+}
+
+#moses {
+	width: 12%;
+	top: 37%;
+	left: 71%;
+}
+
+#she {
+	width: 16%;
+	top: 44%;
+	left: 55%;
+}
+
+#slaught {
+	width: 14%;
+	top: 0%;
+	left: 49%;
+}
+
+#zarathustra {
+	width: 16%;
+	top: 20.5%;
+	left: 55%;
+}
+
+#huck {
+	width: 15%;
+	top: 23%;
+	left: 0%;
+}
+
+#eden {
+	width: 20%;
+	top: 29%;
+	left: 15%;
+}
+
+#optimist {
+	width: 12%;
+	top: 20.5%;
+	left: 71%;
+}
+
+#cane {
+	width: 10%;
+	top: 57.5%;
+	left: 15%;
+}
+
+#kafka {
+	width: 12%;
+	top: 54.5%;
+	right: 0%;
+}
+
+#tobacco {
+    width: 17%;
+    top: 54.5%;
+    right: 12%;
+}
+
+#yeats {
+	width: 10%;
+	top: 57.5%;
+	right: 65%;
+}
+
+#nativeson {
+	width: 20%;
+	top: 48.5%;
+	right: 45%;
+}
+
+#oconnor {
+	width: 20%;
+	top: 71.3%;
+	right: 80%;
+}
+
+#blackboy {
+	width: 12%;
+    top: 72.5%;
+    right: 0%;
+}
+
+p {
+	position: absolute;
+	font-family: 'Raleway', sans-serif;
+	font-style: italic;
+	margin: 0;
+
+}
+#stylePref {
+    top: 15.4%;
+    left: 63.2%;
+    width: 21%;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+#modern {
+    top: 46%;
+    left: 83.5%;
+    width: 16%;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+#groucho {
+    top: 65%;
+    left: .5%;
+    width: 13%;
+    font-size: 13px;
+    line-height: 1.5;
+}

@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+@import url('https://fonts.googleapis.com/css?family=Duru+Sans');
+
+body {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: white;
+}
+
+.nav {
+	position: absolute;
+	right: 3%;
+	top: 9%;
+	list-style: none;
+	font-family: 'Quicksand', Serif;
+	color: black;
+}
+
+li {
+	padding: 10px 0;
+	background-color: #e0dfdf;
+}
+
+li:hover {
+	color: white;
+}
+
+.container1 {
+	background-color: #e0dfdf;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+
+.logo1 {
+	width: 60px;
+	position: absolute;
+	left: 50px;
+	top: 30px;
+}
+.color-box {
+	/*background-color: #4f6a84;*/
+	background-color: #608260;
+	z-index: 2;
+    width: 54%;
+    height: 400px;
+    position: absolute;
+    left: 343px;
+    top: 87px;
+}
+.hey {
+	font-size: 70px;
+	text-align: center;
+	padding-left: 220px;
+	padding-top: 300px;
+	font-family: 'Quicksand', Serif;
+	color: white;
+
+}
+.photo1 {
+    position: absolute;
+    width: 300px;
+    left: 146px;
+    top: 10px;
+    z-index: 3;
+}
+
+.line-box{
+	width: 400px;
+	height: 250px;
+	position: absolute;
+	right: 103px;
+	top: 300px;
+	border: 6px;
+	border-color: black;
+	border-style: solid;
+	z-index: 1;
+}
+
+/*.d-arrow {
+	width: 100%;
+	font-size: 30px;
+	text-align: center;
+	position: absolute;
+	top: 93%;
+	z-index: 1;
+}*/
+
+.container2 {
+	height: 100vh;
+	position: relative;
+}
+
+.book-background {
+	width: 100%;
+	z-index: 0;
+	height: 100vh;
+	position: relative;
+}
+
+.transparent {
+	height: 100vh;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #e0dfdf;
+	opacity: .3;
+	z-index: 1;
+}
+
+/*.transparent {
+	height: 100vh;
+	background-color: #e0dfdf;
+	opacity: .4;
+	position: absolute;	
+}
+*/
+
+
+/*.d-arrow2 {
+	width: 100%;
+	font-size: 30px;
+	text-align: center;
+	position: absolute;
+	top: 2%;
+}*/
+
+.intro-p {		/*maybe should make this centered*/
+	font-family: 'Duru Sans', Serif;
+	font-size: 18px;	
+	padding: 0 150px;
+	text-align: center;
+	position: absolute;
+	top: 250px;
+	font-weight: bold;
+	z-index: 2;
+	line-height: 40px;
+}
+
+/*.container3 {
+	height: 100vh;
+	background-color: #e0dfdf;
+}
+*/
