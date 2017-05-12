@@ -16,9 +16,9 @@ a:hover {
 }
 
 .nav {
-	position: absolute;
-	right: 3%;
-	top: 9%;
+    padding-top: 6%;
+    padding-left: 85%;
+    margin: 0;
 	list-style: none;
 	font-family: 'Quicksand', Serif;
 	color: black;
@@ -41,25 +41,24 @@ li:hover {
 }
 
 .logo1 {
-	width: 60px;
+	width: 5%;
 	position: absolute;
-	left: 50px;
-	top: 30px;
+	left: 4%;
+	top: 5%;
 }
 .color-box {
 	/*background-color: #4f6a84;*/
 	background-color: #608260;
 	z-index: 2;
     width: 54%;
-    height: 400px;
     position: absolute;
-    left: 343px;
+    left: 28.5%;
     top: 87px;
 }
 .hey {
 	font-size: 70px;
 	text-align: center;
-	padding-left: 220px;
+	padding-left: 34%;
 	padding-top: 300px;
 	font-family: 'Quicksand', Serif;
 	color: white;
@@ -67,18 +66,19 @@ li:hover {
 }
 .photo1 {
     position: absolute;
-    width: 300px;
-    left: 146px;
-    top: 10px;
+    width: 25%;
+    left: 12%;
+    top: 1.5%;
     z-index: 3;
 }
 
 .line-box{
-	width: 400px;
+	/*width: 400px;*/
+	width: 33.5%;
 	height: 250px;
 	position: absolute;
-	right: 103px;
-	top: 300px;
+	right: 8.4%;
+	top: 48%;
 	border: 6px;
 	border-color: black;
 	border-style: solid;
@@ -151,3 +151,21 @@ li:hover {
 	background-color: #e0dfdf;
 }
 */
+
+@media screen and (max-width: 980px){
+	.hey{
+		font-size: 60px;
+	}
+}
+
+@media screen and (max-width: 850px){
+	.hey{
+		font-size: 50px;
+	}
+}
+
+@media screen and (max-width: 720px){
+	.hey{
+		font-size: 40px;
+	}
+}
