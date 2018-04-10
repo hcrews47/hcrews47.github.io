@@ -16,9 +16,9 @@ a:hover {
 }
 
 .nav {
-    padding-top: 6%;
-    padding-left: 85%;
-    margin: 0;
+  padding-top: 6%;
+  padding-left: 85%;
+  margin: 0;
 	list-style: none;
 	font-family: 'Quicksand', Serif;
 	color: black;
@@ -121,7 +121,7 @@ li:hover {
 	height: 100vh;
 	background-color: #e0dfdf;
 	opacity: .4;
-	position: absolute;	
+	position: absolute;
 }
 */
 
@@ -136,7 +136,7 @@ li:hover {
 
 .intro-p {		/*maybe should make this centered*/
 	font-family: 'Duru Sans', Serif;
-	font-size: 18px;	
+	font-size: 18px;
 	padding: 0 150px;
 	text-align: center;
 	position: absolute;
